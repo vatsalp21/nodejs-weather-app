@@ -18,7 +18,7 @@ const forecast = (latitude, longitude, callback) => {
         body.current.weather_descriptions[0] +
           ". It is currently " +
           body.current.temperature +
-          "°C degress out."
+          "°C degrees  out."
       );
     }
   });
